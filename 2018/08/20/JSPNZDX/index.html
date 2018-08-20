@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    相拥
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">相拥</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/jsp/">jsp</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://raw.githubusercontent.com/liunaonao123/images/master/article/thumbnail/jspnzdx.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >JSP九大内置对象</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h2 id="常用内置对象特点"><a href="#常用内置对象特点" class="headerlink" title="常用内置对象特点"></a>常用内置对象特点</h2><ol>
+<li>输出输入对象：request对象、response对象、out、对象</li>
+<li>通信控制对象：pageContext对象、session对象、application对象</li>
+<li>Servlet对象：page对象、config对象</li>
+<li>错误处理对象：exception对象</li>
+</ol>
+<h2 id="JSP九大内置对象"><a href="#JSP九大内置对象" class="headerlink" title="JSP九大内置对象"></a>JSP九大内置对象</h2><table>
+<thead>
+<tr>
+<th>JSP内置对象</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>out</td>
+<td>向客户端输出数据</td>
+</tr>
+<tr>
+<td>request</td>
+<td>request对象代表这是从用户发送过来的请求，从这个对象中可以 取出客户端用户提交的数据或者是参数，这个对象只有接受用户请求的页  面才可以访问。</td>
+</tr>
+<tr>
+<td>response</td>
+<td>response对象是服务器端向客户端返回的数据，从这个对象中可以取出部分与服务器互动的数据和信息，只有接受这个对象的页面才可以访问这个对象。</td>
+</tr>
+<tr>
+<td>session</td>
+<td>用来保存每个用户的信息,以便跟踪每个用户的操作状态</td>
+</tr>
+<tr>
+<td>application</td>
+<td>类似系统的“全局变量”，用于同一个应用内的所有用户之间的数据共享。</td>
+</tr>
+<tr>
+<td>pageContext</td>
+<td>提供了在JSP运行时访问和其相关的环境信息的能力。通过pageContext对象可以访问和当前JSP页面相关联的所有作用域，以及一些页面属性。</td>
+</tr>
+<tr>
+<td>page</td>
+<td>表示当前页面，类似于Java中的this。在JSP页面中，很少使用page对象。</td>
+</tr>
+<tr>
+<td>config</td>
+<td>用于存放JSP编译后的初始数据。与page对象一样，在JSP页面中很少使用。</td>
+</tr>
+<tr>
+<td>exception</td>
+<td>表示JSP页面运行时产生的异常和错误信息，该对象只有在错误页面（page指令中设定isErrorPage为true的页面）中才能够使用。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="内置对象常用方法说明"><a href="#内置对象常用方法说明" class="headerlink" title="内置对象常用方法说明"></a>内置对象常用方法说明</h2><ol>
+<li>out对象</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>print或println</td>
+<td>输出数据</td>
+</tr>
+</tbody>
+</table>
+<p>2.request对象</p>
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>void setAttribute (String key,Object obj)</td>
+<td>设置指定名字参数值</td>
+</tr>
+<tr>
+<td>Object getAttribute (String name)</td>
+<td>获取指定属性的值,如该属性值不存在返回Null</td>
+</tr>
+<tr>
+<td>String getParameter (String name)</td>
+<td>获取指定名字参数值</td>
+</tr>
+<tr>
+<td>String getCharacterEncoding()</td>
+<td>返回字符编码方式 </td>
+</tr>
+<tr>
+<td>RequestDispacther getRequestDispacher(String Path)</td>
+<td>该对象的forward()方法用于转发请求</td>
+</tr>
+</tbody>
+</table>
+<p>3.response对象</p>
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>void addCookie (Cookie cookie)</td>
+<td>向客户端添加Cookie</td>
+</tr>
+<tr>
+<td>void setContenType (String type)</td>
+<td>设置HTTP响应的contentType类型</td>
+</tr>
+<tr>
+<td>void setCharacterEncoding(String charset)</td>
+<td>设置响应字符集编码</td>
+</tr>
+<tr>
+<td>void sendRedirect(String location)</td>
+<td>将请求重定向到一个新的URL上</td>
+</tr>
+</tbody>
+</table>
+<p>4.session对象</p>
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sting getId()</td>
+<td>获取sessionid</td>
+</tr>
+<tr>
+<td>void setMaxInactiveInterval (int interval)</td>
+<td>设定session的非活动时间</td>
+</tr>
+<tr>
+<td>int getMaxInactiveInterval()</td>
+<td>获取session的有效非活动时间，已秒为单位</td>
+</tr>
+<tr>
+<td>void invalidate</td>
+<td>设置session对象失效</td>
+</tr>
+<tr>
+<td>String setAttribute(String key,Object value)</td>
+<td>将对象保存到session中</td>
+</tr>
+<tr>
+<td>Object getAttribute(String key)</td>
+<td>获取session中保存的对象</td>
+</tr>
+<tr>
+<td>void removeAttribute(String key)</td>
+<td>从session中删除指定对象的值</td>
+</tr>
+</tbody>
+</table>
+<p>5.appliction对象</p>
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>void setAttribute(String key,Object value)</td>
+<td>将对象存储到appliction中</td>
+</tr>
+<tr>
+<td>Objict getAttribute(String key)</td>
+<td>获取appliction中存储的对象</td>
+</tr>
+<tr>
+<td>String getRealPath(String path)</td>
+<td>返回相对路径的真实路径</td>
+</tr>
+</tbody>
+</table>
+<p>6.pageContext对象</p>
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ServletRequest getRequest()</td>
+<td>获取request对象</td>
+</tr>
+<tr>
+<td>ServletResponse getResponse()</td>
+<td>获取resPonse对象</td>
+</tr>
+<tr>
+<td>HttpSession getSession()</td>
+<td>获取session对象</td>
+</tr>
+<tr>
+<td>JspWriter getOut()</td>
+<td>获取out对象</td>
+</tr>
+<tr>
+<td>void setAttribute()</td>
+<td>保存属性</td>
+</tr>
+<tr>
+<td>Object getAttrbute()</td>
+<td>获得属性</td>
+</tr>
+<tr>
+<td>void include()</td>
+<td>请求指定的资源，并将目标资源的响应结果包含在调用页面的响应中</td>
+</tr>
+</tbody>
+</table>
+<p>7..page对象</p>
+<p>表示当前页面，类似java中的this。在JSP页面中，很少使用page对象</p>
+<p>8.config对象</p>
+<p>用于存放JSP编译后的初始数据。</p>
+<p>9.exception对象</p>
+<p>表示JSP页面运行时产生的异常和错误信息，该对象只有在错误页面(page指令中设定isErrorPage为true的页面)中才能够使用&lt;%@pageisErrorPage=“true”%&gt;</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 valine -->
+<div id="comment">
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#comment' ,
+        notify: true,
+        verify: false,
+        app_id: 'ttMLCD1VqpYzgGUURQlfJDRh-gzGzoHsz',
+        app_key: '0Tqi3y1cDlfMG9P4L85lVoIu',
+        placeholder: '大胆说出你的想法',
+        pageSize: '10',
+        avatar: '',
+        avatar_cdn: 'https://gravatar.loli.net/avatar/'
+    });
+</script>
+</div>
+<style>
+   #comment{
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>欢迎访问本站</li>
+                <li>爱你呦</li>
+            </ul>
+            
+            	<span id="busuanzi_container_site_pv">2018总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
