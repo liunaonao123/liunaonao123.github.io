@@ -333,7 +333,7 @@
     &lt;filtering&gt;false&lt;/filtering&gt;
   &lt;/resource&gt;
 &lt;/resources&gt;
-</code></pre><h3 id="3-2编写实体类，以及数据访问dao，service"><a href="#3-2编写实体类，以及数据访问dao，service" class="headerlink" title="3.2编写实体类，以及数据访问dao，service"></a>3.2编写实体类，以及数据访问dao，service</h3><p>实体类略过<br>数据访问dao、servce</p>
+</code></pre><h3 id="3-2编写实体类，以及数据访问dao，service"><a href="#3-2编写实体类，以及数据访问dao，service" class="headerlink" title="3.2编写实体类，以及数据访问dao，service"></a>3.2编写实体类，以及数据访问dao，service</h3><p>实体类略过<br>数据层dao</p>
 <pre><code>public interface UserMapper {
 /**
  * 查询全部用户信息
@@ -381,7 +381,7 @@ public int delete(int id)throws Exception;
      delete from userinfo where #{id}
  &lt;/delete&gt;
 &lt;/mapper&gt;
-</code></pre><p>service层得到dao层的数据</p>
+</code></pre><p>service层获取dao层的数据</p>
 <pre><code>@Service(&quot;userServiceImpl&quot;)
 public class UserServiceImpl implements UserService {
     @Resource
@@ -515,7 +515,7 @@ xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
      &lt;/tx:attributes&gt;
  &lt;/tx:advice&gt;
  &lt;/beans&gt;
-</code></pre><p>如果最后整合完毕数据出错可以在数据访问层进行代码测试，方便更快捷的找出程序漏洞。此处不做演练。</p>
+</code></pre><p>如果最后整合完毕没有得到数据可以在数据访问层进行代码测试，方便更快捷的找出程序漏洞。此处不做演练。</p>
 <h3 id="3-4整合SpringMVC"><a href="#3-4整合SpringMVC" class="headerlink" title="3.4整合SpringMVC"></a>3.4整合SpringMVC</h3></li>
 <li><p>配置SpringMVC.xml</p>
 <p>Springmvc.xml配置内容有很多，此处就先介绍这些</p>
