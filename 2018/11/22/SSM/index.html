@@ -1,0 +1,734 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    相拥
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">相拥</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/Spring/">Spring</a></li><li><a class="category-link" href="/categories/js/">js</a></li><li><a class="category-link" href="/categories/jsp/">jsp</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://raw.githubusercontent.com/liunaonao123/images/master/article/thumbnail/ssm.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >SSM</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h2 id="SSM框架整合过程"><a href="#SSM框架整合过程" class="headerlink" title="SSM框架整合过程"></a>SSM框架整合过程</h2><pre><code>接触SSM框架时间不长，准备整理一下，谈谈心得。讲的不好，大家多多包涵。
+</code></pre><h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1 基本概念"></a>1 基本概念</h2><h3 id="1-1-Spring"><a href="#1-1-Spring" class="headerlink" title="1.1 Spring"></a>1.1 Spring</h3><p>  Spring是一个开源框架，Spring是于2003 年兴起的一个轻量级的Java<br> 开发框架，由Rod Johnson 在其著作Expert One-On-One J2EE Development and Design中阐述的部分理念和原型衍生而来。它是为了解决企业应用开发的复杂性而创建的。Spring使用基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅限于服务器端的开发。从简单性、可测试性和松耦合的角度而言，任何Java应用都可以从Spring中受益。 简单来说，Spring是一个轻量级的控制反转（IoC）和面向切面（AOP）的容器框架。</p>
+<h3 id="1-2-MyBatis"><a href="#1-2-MyBatis" class="headerlink" title="1.2 MyBatis"></a>1.2 MyBatis</h3><p>  MyBatis是一个开源的数据持久化框架。它内部封装了通过JDBC访问数据库的操作，支持普通的SQL查询、存储过程和高级映射。<br>  MyBatis作为持久化框架，其主要思想试讲程序中大量的SQL语句剥离出来，配置在配置文件中，实现SQL的灵活配置。使SQL语句与程序代码分离。</p>
+<h3 id="1-3-SpringMVC’"><a href="#1-3-SpringMVC’" class="headerlink" title="1.3 SpringMVC’"></a>1.3 SpringMVC’</h3><h2 id="2-MAVEN"><a href="#2-MAVEN" class="headerlink" title="2. MAVEN"></a>2. MAVEN</h2><p>  maven可以很好地解决项目关于jar包的引用，这里不过多讲解。深入了解可以查询资料或者查看maven源码。</p>
+<h3 id="3-SSM整合"><a href="#3-SSM整合" class="headerlink" title="3. SSM整合"></a>3. SSM整合</h3><h3 id="3-1创建项目，整理项目结构"><a href="#3-1创建项目，整理项目结构" class="headerlink" title="3.1创建项目，整理项目结构"></a>3.1创建项目，整理项目结构</h3><p><img src="https://raw.githubusercontent.com/liunaonao123/images/master/article/ssm/xmjg.jpg" alt="image"></p>
+<h3 id="MAVEN需要引用的jar包-初步估计"><a href="#MAVEN需要引用的jar包-初步估计" class="headerlink" title="MAVEN需要引用的jar包(初步估计)"></a>MAVEN需要引用的jar包(初步估计)</h3><pre><code>&lt;dependencies&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;junit&lt;/groupId&gt;
+  &lt;artifactId&gt;junit&lt;/artifactId&gt;
+  &lt;version&gt;4.11&lt;/version&gt;
+  &lt;scope&gt;test&lt;/scope&gt;
+&lt;/dependency&gt;
+&lt;!-- https://mvnrepository.com/artifact/org.mybatis/mybatis --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.mybatis&lt;/groupId&gt;
+  &lt;artifactId&gt;mybatis&lt;/artifactId&gt;
+  &lt;version&gt;3.3.0&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;commons-dbcp&lt;/groupId&gt;
+  &lt;artifactId&gt;commons-dbcp&lt;/artifactId&gt;
+  &lt;version&gt;1.4&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.mybatis&lt;/groupId&gt;
+  &lt;artifactId&gt;mybatis-spring&lt;/artifactId&gt;
+  &lt;version&gt;1.2.0&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-web --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-web&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-jdbc&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-webmvc&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.aspectj&lt;/groupId&gt;
+  &lt;artifactId&gt;aspectjweaver&lt;/artifactId&gt;
+  &lt;version&gt;1.6.9&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/aopalliance/aopalliance --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;aopalliance&lt;/groupId&gt;
+  &lt;artifactId&gt;aopalliance&lt;/artifactId&gt;
+  &lt;version&gt;1.0&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.apache.commons&lt;/groupId&gt;
+  &lt;artifactId&gt;commons-lang3&lt;/artifactId&gt;
+  &lt;version&gt;3.0&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/commons-logging/commons-logging --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;commons-logging&lt;/groupId&gt;
+  &lt;artifactId&gt;commons-logging&lt;/artifactId&gt;
+  &lt;version&gt;1.1.1&lt;/version&gt;
+&lt;/dependency&gt;
+
+
+
+&lt;!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;mysql&lt;/groupId&gt;
+  &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;
+  &lt;version&gt;5.1.27&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-aop --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-aop&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-beans --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-beans&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-context --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-context&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-core --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-core&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-expression --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+  &lt;artifactId&gt;spring-expression&lt;/artifactId&gt;
+  &lt;version&gt;3.2.13.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.apache.taglibs/taglibs-standard-impl --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.apache.taglibs&lt;/groupId&gt;
+  &lt;artifactId&gt;taglibs-standard-impl&lt;/artifactId&gt;
+  &lt;version&gt;1.2.1&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.junit.jupiter&lt;/groupId&gt;
+  &lt;artifactId&gt;junit-jupiter-api&lt;/artifactId&gt;
+  &lt;version&gt;RELEASE&lt;/version&gt;
+  &lt;scope&gt;compile&lt;/scope&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.junit.jupiter&lt;/groupId&gt;
+  &lt;artifactId&gt;junit-jupiter-api&lt;/artifactId&gt;
+  &lt;version&gt;RELEASE&lt;/version&gt;
+  &lt;scope&gt;compile&lt;/scope&gt;
+&lt;/dependency&gt;
+&lt;!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl --&gt;
+&lt;!--&lt;dependency&gt;
+    &lt;groupId&gt;javax.servlet.jsp.jstl&lt;/groupId&gt;
+    &lt;artifactId&gt;jstl&lt;/artifactId&gt;
+    &lt;version&gt;1.2&lt;/version&gt;
+&lt;/dependency&gt;--&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/javax.servlet/jstl --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+  &lt;artifactId&gt;jstl&lt;/artifactId&gt;
+  &lt;version&gt;1.1.0&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;javax.servlet.jsp.jstl&lt;/groupId&gt;
+  &lt;artifactId&gt;jstl-api&lt;/artifactId&gt;
+  &lt;version&gt;1.2&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.glassfish.web/jstl-impl --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.glassfish.web&lt;/groupId&gt;
+  &lt;artifactId&gt;jstl-impl&lt;/artifactId&gt;
+  &lt;version&gt;1.2&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/org.webjars.bower/jquery --&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;org.webjars.bower&lt;/groupId&gt;
+  &lt;artifactId&gt;jquery&lt;/artifactId&gt;
+  &lt;version&gt;2.1.0&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;/dependencies&gt;
+</code></pre><p>  如果最后运行报了这样一个错误：Invalid bound statement (not found)：，只需要在pom.xml文件中加入这样一段配置就ok了！</p>
+<pre><code>&lt;resources&gt;
+  &lt;resource&gt;
+    &lt;directory&gt;src/main/java/&lt;/directory&gt;
+    &lt;includes&gt;
+      &lt;include&gt;**/*.properties&lt;/include&gt;
+      &lt;include&gt;**/*.xml&lt;/include&gt;
+    &lt;/includes&gt;
+    &lt;filtering&gt;false&lt;/filtering&gt;
+  &lt;/resource&gt;
+  &lt;resource&gt;
+    &lt;directory&gt;src/main/resources&lt;/directory&gt;
+    &lt;includes&gt;
+      &lt;include&gt;**/*.properties&lt;/include&gt;
+      &lt;include&gt;**/*.xml&lt;/include&gt;
+    &lt;/includes&gt;
+    &lt;filtering&gt;false&lt;/filtering&gt;
+  &lt;/resource&gt;
+&lt;/resources&gt;
+</code></pre><h3 id="3-2编写实体类，以及数据访问dao，service"><a href="#3-2编写实体类，以及数据访问dao，service" class="headerlink" title="3.2编写实体类，以及数据访问dao，service"></a>3.2编写实体类，以及数据访问dao，service</h3><p>实体类略过<br>数据访问dao、servce</p>
+<pre><code>public interface UserMapper {
+/**
+ * 查询全部用户信息
+ * @return user对象集合
+ */
+public List&lt;UserInfo&gt; userlist() throws Exception;
+
+/**
+ * 新增用户信息
+ * @param userInfo 用户信息
+ * @return 受影响行数
+ */
+public int add(UserInfo userInfo)throws Exception;
+
+/**
+ * 修改用户信息
+ * @param userInfo 修改用户列
+ * @return 受影响行数
+ */
+public int update(UserInfo userInfo)throws Exception;
+
+/**
+ * 删除用户
+ * @param id 用户id
+ * @return 受影响行数
+ */
+public int delete(int id)throws Exception;
+
+}
+</code></pre><p>编写SQLMapper文件，是Sql语句与程序代码分离</p>
+<pre><code>&lt;mapper namespace=&quot;user.dao.UserMapper&quot;&gt;
+&lt;select id=&quot;userlist&quot; resultType=&quot;UserInfo&quot;&gt;
+    select * from userinfo
+&lt;/select&gt;
+&lt;insert id=&quot;add&quot; parameterType=&quot;UserInfo&quot;&gt;
+    insert into userinfo(sname,sgender,sage,saddress,semail,createDate)
+    values (#{sname},#{sgender},#{sage},#{saddress},#{semail},#{createDate})
+&lt;/insert&gt;
+&lt;update id=&quot;update&quot; parameterType=&quot;UserInfo&quot;&gt;
+    update userinfo set sname=#{sname},sgender=#{sgender},sage=#{sage},
+      saddress=#{saddress},semail=#{semail},createDate=#{createDate}
+        where sid=#{id}
+&lt;/update&gt;
+&lt;delete id=&quot;delete&quot; parameterType=&quot;int&quot;&gt;
+     delete from userinfo where #{id}
+ &lt;/delete&gt;
+&lt;/mapper&gt;
+</code></pre><p>service层得到dao层的数据</p>
+<pre><code>@Service(&quot;userServiceImpl&quot;)
+public class UserServiceImpl implements UserService {
+    @Resource
+private UserMapper userMapper;
+@Override
+public List&lt;UserInfo&gt; userlist() throws Exception {
+    return userMapper.userlist();
+}
+
+@Override
+public boolean add(UserInfo userInfo) throws Exception {
+    boolean result=false;
+    int rows=userMapper.add(userInfo);
+    if(rows&gt;0){
+        result=true;
+    }else{
+        result= false;
+    }
+    return result;
+}
+
+@Override
+public boolean update(UserInfo userInfo) throws Exception {
+    boolean result=false;
+    int rows=userMapper.update(userInfo);
+    if(rows&gt;0){
+        result=true;
+    }else{
+        result= false;
+    }
+    return result;
+}
+
+@Override
+public boolean delete(int id) throws Exception {
+    boolean result=false;
+    int rows=userMapper.delete(id);
+    if(rows&gt;0){
+        result=true;
+    }else{
+        result= false;
+    }
+    return result;
+ }
+}
+</code></pre><h3 id="3-3-Spring与MyBatis整合"><a href="#3-3-Spring与MyBatis整合" class="headerlink" title="3.3 Spring与MyBatis整合"></a>3.3 Spring与MyBatis整合</h3><ul>
+<li><p>编写datebase.properties文件</p>
+<pre><code>driver=com.mysql.jdbc.Driver
+#在和mysql传递数据的过程中，使用unicode编码格式，并且字符集设置为utf-8
+url=jdbc:mysql://127.0.0.1:3306/user?useUnicode=true&amp;characterEncoding=utf-8
+user=root
+password=root
+#定义初始连接数  
+initialSize=0  
+#定义最大连接数  
+maxActive=20  
+#定义最大空闲  
+maxIdle=20  
+#定义最小空闲  
+minIdle=1  
+#定义最长等待时间  
+maxWait=60000 
+...
+</code></pre></li>
+<li><p>配置spring-mybatis.xml文件</p>
+<pre><code> &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+xmlns:p=&quot;http://www.springframework.org/schema/p&quot;
+xmlns:aop=&quot;http://www.springframework.org/schema/aop&quot;
+xmlns:context=&quot;http://www.springframework.org/schema/context&quot;
+xmlns:tx=&quot;http://www.springframework.org/schema/tx&quot;
+xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+ http://www.springframework.org/schema/aop
+ http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+ http://www.springframework.org/schema/tx
+ http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-3.2.xsd &quot;&gt;
+
+ &lt;!--扫描包下的注释--&gt;
+ &lt;context:component-scan base-package=&quot;user.service&quot;/&gt;
+ &lt;!--读取数据库配置文件--&gt;
+ &lt;context:property-placeholder location=&quot;classpath:database.properties&quot;/&gt;
+ &lt;!--获取数据源--&gt;
+ &lt;bean id=&quot;dataSource&quot;
+       class=&quot;org.apache.commons.dbcp.BasicDataSource&quot; destroy-method=&quot;close&quot;
+       scope=&quot;singleton&quot;&gt;
+ &lt;property name=&quot;driverClassName&quot; value=&quot;${driver}&quot; /&gt;  
+ &lt;property name=&quot;url&quot; value=&quot;${url}&quot; /&gt;  
+ &lt;property name=&quot;username&quot; value=&quot;${user}&quot; /&gt;  
+ &lt;property name=&quot;password&quot; value=&quot;${password}&quot; /&gt;  
+ &lt;!-- 初始化连接大小 --&gt;  
+ &lt;property name=&quot;initialSize&quot; value=&quot;${initialSize}&quot;&gt;&lt;/property&gt;  
+ &lt;!-- 连接池最大数量 --&gt;  
+ &lt;property name=&quot;maxActive&quot; value=&quot;${maxActive}&quot;&gt;&lt;/property&gt;  
+ &lt;!-- 连接池最大空闲 --&gt;  
+ &lt;property name=&quot;maxIdle&quot; value=&quot;${maxIdle}&quot;&gt;&lt;/property&gt;  
+ &lt;!-- 连接池最小空闲 --&gt;  
+ &lt;property name=&quot;minIdle&quot; value=&quot;${minIdle}&quot;&gt;&lt;/property&gt;  
+ &lt;!-- 获取连接最大等待时间 --&gt;  
+ &lt;property name=&quot;maxWait&quot; value=&quot;${maxWait}&quot;&gt;&lt;/property&gt;
+ &lt;/bean&gt;
+ &lt;!-- 配置sqlSessionFactory对象 --&gt;
+ &lt;bean id=&quot;sqlSessionFactory&quot; class=&quot;org.mybatis.spring.SqlSessionFactoryBean&quot;&gt;
+     &lt;property name=&quot;dataSource&quot; ref=&quot;dataSource&quot;/&gt;
+     &lt;property name=&quot;configLocation&quot; value=&quot;classpath:mybatis-config.xml&quot;/&gt;
+ &lt;/bean&gt;
+
+ &lt;!--自动查找dao包下的类--&gt;
+ &lt;bean class=&quot;org.mybatis.spring.mapper.MapperScannerConfigurer&quot;&gt;
+     &lt;property name=&quot;basePackage&quot; value=&quot;user.dao&quot;/&gt;
+ &lt;/bean&gt;
+
+ &lt;!-- 配置事务管理器--&gt;
+ &lt;bean id=&quot;transactionManager&quot;
+       class=&quot;org.springframework.jdbc.datasource.DataSourceTransactionManager&quot;&gt;
+     &lt;property name=&quot;dataSource&quot; ref=&quot;dataSource&quot;/&gt;
+ &lt;/bean&gt;
+
+ &lt;!--AOP事务处理--&gt;
+ &lt;aop:aspectj-autoproxy /&gt;
+ &lt;aop:config proxy-target-class=&quot;true&quot;&gt;
+     &lt;aop:pointcut id=&quot;transService&quot; expression=&quot;execution(* *user.service..*(..))&quot;/&gt;
+     &lt;aop:advisor pointcut-ref=&quot;transService&quot; advice-ref=&quot;txAdvice&quot;/&gt;
+ &lt;/aop:config&gt;
+ &lt;tx:advice id=&quot;txAdvice&quot; transaction-manager=&quot;transactionManager&quot;&gt;
+     &lt;tx:attributes&gt;
+         &lt;tx:method name=&quot;java*&quot;
+                    propagation=&quot;REQUIRED&quot; rollback-for=&quot;Exception&quot;/&gt;
+     &lt;/tx:attributes&gt;
+ &lt;/tx:advice&gt;
+ &lt;/beans&gt;
+</code></pre><p>如果最后整合完毕数据出错可以在数据访问层进行代码测试，方便更快捷的找出程序漏洞。此处不做演练。</p>
+<h3 id="3-4整合SpringMVC"><a href="#3-4整合SpringMVC" class="headerlink" title="3.4整合SpringMVC"></a>3.4整合SpringMVC</h3></li>
+<li><p>配置SpringMVC.xml</p>
+<p>Springmvc.xml配置内容有很多，此处就先介绍这些</p>
+<pre><code> &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+xmlns:context=&quot;http://www.springframework.org/schema/context&quot;
+xmlns:mvc=&quot;http://www.springframework.org/schema/mvc&quot;
+xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+                    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+                    http://www.springframework.org/schema/context
+                     http://www.springframework.org/schema/context/spring-context.xsd
+                     http://www.springframework.org/schema/mvc
+                     http://www.springframework.org/schema/mvc/spring-mvc.xsd&quot;&gt;
+ &lt;!--自动扫描控制器--&gt;
+ &lt;context:component-scan base-package=&quot;user.controller&quot;/&gt;
+
+ &lt;mvc:annotation-driven/&gt;
+ &lt;!--视图解析器--&gt;
+ &lt;bean class=&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&gt;
+     &lt;property name=&quot;prefix&quot; value=&quot;/WEB-INF/jsp/&quot;/&gt;
+     &lt;property name=&quot;suffix&quot; value=&quot;.jsp&quot;/&gt;
+ &lt;/bean&gt;
+&lt;/beans&gt;
+</code></pre></li>
+<li><p>配置web.xml<br>web.xml作为web应用的入口，配置内容比较多，功能也比较齐全。在maven的web项目中web.xml里面的元素是有先后顺序的，这点需要注意。</p>
+<pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+  &lt;web-app xmlns=&quot;http://java.sun.com/xml/ns/javaee&quot;
+       xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+       xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/javaee
+        http://java.sun.com/xml/ns/javaee/web-app_2_4.xsd&quot;
+       version=&quot;2.5&quot;&gt;
+&lt;display-name&gt;Archetype Created Web Application&lt;/display-name&gt;
+
+&lt;!--加载Spring配置文件--&gt;
+&lt;context-param&gt;
+  &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;
+  &lt;param-value&gt;classpath:spring-mybatis.xml&lt;/param-value&gt;
+&lt;/context-param&gt;
+
+&lt;!--log4j初始化--&gt;
+&lt;context-param&gt;
+  &lt;param-name&gt;log4jConfigLocation&lt;/param-name&gt;
+  &lt;param-value&gt;classpath:log4j.properties&lt;/param-value&gt;
+&lt;/context-param&gt;
+&lt;!-- 字符集编码过滤器--&gt;
+&lt;filter&gt;
+  &lt;filter-name&gt;encodingFilter&lt;/filter-name&gt;
+  &lt;filter-class&gt;
+    org.springframework.web.filter.CharacterEncodingFilter
+  &lt;/filter-class&gt;
+  &lt;init-param&gt;
+    &lt;param-name&gt;encoding&lt;/param-name&gt;
+    &lt;param-value&gt;UTF-8&lt;/param-value&gt;
+  &lt;/init-param&gt;
+  &lt;init-param&gt;
+    &lt;param-name&gt;forceEncoding&lt;/param-name&gt;
+    &lt;param-value&gt;true&lt;/param-value&gt;
+  &lt;/init-param&gt;
+&lt;/filter&gt;
+&lt;filter-mapping&gt;
+  &lt;filter-name&gt;encodingFilter&lt;/filter-name&gt;
+  &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+&lt;/filter-mapping&gt;
+
+    &lt;!-- 配置Spring的ContextLoaderListener监听器 初始化Spring容器--&gt;
+&lt;listener&gt;
+  &lt;listener-class&gt;
+    org.springframework.web.context.ContextLoaderListener
+  &lt;/listener-class&gt;
+&lt;/listener&gt;
+
+&lt;!--配置SpringMVC的核心处理器--&gt;
+&lt;servlet&gt;
+  &lt;servlet-name&gt;springMVC&lt;/servlet-name&gt;
+  &lt;servlet-class&gt;
+    org.springframework.web.servlet.DispatcherServlet
+  &lt;/servlet-class&gt;
+  &lt;init-param&gt;
+    &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;
+    &lt;param-value&gt;classpath:springmvc-servlet.xml&lt;/param-value&gt;
+  &lt;/init-param&gt;
+&lt;/servlet&gt;
+&lt;servlet-mapping&gt;
+  &lt;servlet-name&gt;springMVC&lt;/servlet-name&gt;
+  &lt;url-pattern&gt;/&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;      
+&lt;/webapp&gt;
+</code></pre></li>
+<li><p>编写Controller文件</p>
+<pre><code>@Controller
+@RequestMapping(value = &quot;user&quot;)
+public class UserController {
+    @Resource
+    private UserServiceImpl userServiceImpl;
+
+    @RequestMapping(value = &quot;select&quot;)
+    public String select(Model model){
+        try {
+            List&lt;UserInfo&gt; users=userServiceImpl.userlist();
+            model.addAttribute(&quot;users&quot;,users);
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        }
+        return &quot;main&quot;;
+    }
+}
+</code></pre><p>-编写前台页面</p>
+</li>
+</ul>
+<p>在view层接收控制层响应的数据，并进行渲染</p>
+<pre><code>    &lt;%@ page contentType=&quot;text/html;charset=UTF-8&quot; language=&quot;java&quot; %&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+    table{text-align: center;width: 1000px}
+&lt;/style&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;用户列表&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;table class=&quot;providerTable&quot; border=&quot;1&quot;&gt;
+        &lt;tr class=&quot;firstTr&quot;&gt;
+            &lt;th width=&quot;10%&quot;&gt;编号&lt;/th&gt;
+            &lt;th width=&quot;10%&quot;&gt;姓名&lt;/th&gt;
+            &lt;th width=&quot;10%&quot;&gt;性别&lt;/th&gt;
+            &lt;th width=&quot;10%&quot;&gt;年龄&lt;/th&gt;
+            &lt;th width=&quot;10%&quot;&gt;住址&lt;/th&gt;
+            &lt;th width=&quot;10%&quot;&gt;邮箱&lt;/th&gt;
+            &lt;th width=&quot;15%&quot;&gt;出生日期&lt;/th&gt;
+            &lt;th width=&quot;20%&quot;&gt;操作&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;c:forEach var=&quot;user&quot; items=&quot;${users}&quot;&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;span&gt;${user.sid}&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;span&gt;${user.sname}&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;span&gt;${user.sgender}&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;span&gt;${user.sage}&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;span&gt;${user.saddress}&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;span&gt;${user.semail}&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;span&gt;${user.createDate}&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                            &lt;span&gt;&lt;a class=&quot;delete&quot; href=&quot;${pageContext.request.contextPath }/user/add?id=${user} &quot;&gt;新增&lt;/a&gt; &lt;/span&gt;
+                                &lt;span&gt;&lt;a class=&quot;delete&quot; href=&quot;${pageContext.request.contextPath }/user/delete?id=${user.sid} &quot;&gt;删除&lt;/a&gt; &lt;/span&gt;
+                            &lt;span&gt;&lt;a class=&quot;delete&quot; href=&quot;${pageContext.request.contextPath }/user/update?id=${user} &quot;&gt;修改&lt;/a&gt; &lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/c:forEach&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h3 id="使用Tomcat部署项目部，查看结果"><a href="#使用Tomcat部署项目部，查看结果" class="headerlink" title="使用Tomcat部署项目部，查看结果"></a>使用Tomcat部署项目部，查看结果</h3><p><img src="https://raw.githubusercontent.com/liunaonao123/images/master/article/ssm/jg.jpg" alt="image"></p>
+<p>运行完毕，数据完美呈现，但是有一点瑕疵，日期格式好像有点错误，<br>配置日期转换格式可以在Spring框架提供了很多日期转换格式,这里就不演示了，有兴趣的同学，可以自行了解。</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 valine -->
+<div id="comment">
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#comment' ,
+        notify: true,
+        verify: false,
+        app_id: 'ttMLCD1VqpYzgGUURQlfJDRh-gzGzoHsz',
+        app_key: '0Tqi3y1cDlfMG9P4L85lVoIu',
+        placeholder: '大胆说出你的想法',
+        pageSize: '10',
+        avatar: '',
+        avatar_cdn: 'https://gravatar.loli.net/avatar/'
+    });
+</script>
+</div>
+<style>
+   #comment{
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>欢迎访问本站</li>
+                <li>爱你呦</li>
+            </ul>
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+            </script>
+            
+            	<span id="busuanzi_container_site_pv">2018总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
